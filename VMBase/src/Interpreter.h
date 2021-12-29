@@ -8,19 +8,6 @@
 #include "Value.h"
 
 namespace VM {
-
-    // stack-based VM
-
-    // Interpreter::process/interpret/consume bytecode
-
-    // Runtime performance and safety
-
-    // Tool that outputs bytecode
-
-    // A tagged variant
-
-    // So which should you do? My recommendation is to stick with a stack-based VM.
-    // They’re simpler to implement and much simpler to generate code for.
 	class Interpreter {
 	public:
 		void process( const std::string& filePath ) {
